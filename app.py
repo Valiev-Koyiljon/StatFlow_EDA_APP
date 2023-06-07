@@ -50,7 +50,7 @@ data = st.file_uploader("Upload a Dataset", type=["csv", "txt"])
 
 # main function to do all small functionality inside this app
 def main(): 
-    activities = ["EDA", "Plots", "Report", "Sweetviz"]
+    activities = ["EDA", "Plots", "Report"]
     choice = st.sidebar.radio("Select Operation", activities)
 
 # EDA part1
