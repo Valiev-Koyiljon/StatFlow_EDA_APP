@@ -4,6 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas-profiling = "*"
+sweetviz = "*"
+streamlit-pandas-profiling = "*"
+streamlit = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
 
