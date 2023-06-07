@@ -174,17 +174,17 @@ def main():
                 st_profile_report(pr)
         
 
-#SweetViz part4
-    elif choice == 'Sweetviz':
-        st.subheader("Automated EDA with Sweetviz")
-        # Automated EDA with Sweetviz section
-        if data is not None:
-            df = pd.read_csv(data)
-            st.dataframe(df.head())
-            if st.button("Generate Sweetviz Report"):
-                report = sv.analyze(df)
-                report.show_html()
-                st_display_sweetviz("SWEETVIZ_REPORT.html")
+# #SweetViz part4
+#     elif choice == 'Sweetviz':
+#         st.subheader("Automated EDA with Sweetviz")
+#         # Automated EDA with Sweetviz section
+#         if data is not None:
+#             df = pd.read_csv(data)
+#             st.dataframe(df.head())
+#             if st.button("Generate Sweetviz Report"):
+#                 report = sv.analyze(df)
+#                 report.show_html()
+#                 st_display_sweetviz("SWEETVIZ_REPORT.html")
 
 if __name__ == '__main__':
     main()
