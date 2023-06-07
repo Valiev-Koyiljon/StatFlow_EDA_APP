@@ -4,9 +4,17 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+
 # import sweetviz as sv
+
+
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
+
+# from ydata_profiling import ProfileReport
+# from ydata_profiling.st_profile_report import st_profile_report
+
 import scipy.stats as stats
 import numpy as np
 from PIL import Image
