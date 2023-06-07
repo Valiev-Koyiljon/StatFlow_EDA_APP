@@ -9,6 +9,8 @@ from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 import scipy.stats as stats
 import numpy as np
+from PIL import Image
+
 
 
 # function to calculate confidence interval
@@ -26,6 +28,12 @@ def calculate_confidence_interval(data, confidence=0.95):
 
 
 st.markdown(""" # StatFlow - is a new way of EDA! """)
+
+logo_image = Image.open("StatFlowLogo.png")
+st.image(logo_image, use_column_width=True)
+
+
+
 st.set_option('deprecation.showPyplotGlobalUse', False)
 data = st.file_uploader("Upload a Dataset", type=["csv", "txt"])
 
