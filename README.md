@@ -45,7 +45,7 @@ We welcome contributions to enhance the functionality and user experience of Sta
 
 ## License
 
-StatFlow_EDA_APP is distributed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify the application as per the terms of the license.
+StatFlow_EDA_APP is the Apache-2.0 license. Feel free to use and modify the application as per the terms of the license.
 
 
 ---
